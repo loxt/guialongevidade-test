@@ -1,0 +1,292 @@
+
+{
+  "pageProps": {
+    "partners": [
+
+    ],
+    "initialPlaces": [
+      {
+        "id": "ChIJayV81pnfmwARh_l_SRMcMTw",
+        "name": "Casa de repouso para idosos doce lar",
+        "slug": "casa-de-repouso-para-idosos-doce-lar-realengo-undefined",
+        "pricingRange": null,
+        "address": "R. Vicência, 290 - Realengo, Rio de Janeiro",
+        "photos": null,
+        "rating": 0
+      },
+      {
+        "id": "ChIJO_T_o2B_mQARq2g58idX2PI",
+        "name": "Lar da Velhice Israelita Religiosa do Rio de Janeiro",
+        "slug": "lar-da-velhice-israelita-religiosa-do-rio-de-janeiro-centro-rj",
+        "pricingRange": null,
+        "address": "R. Uruguaiana, 10 - Centro, Rio de Janeiro",
+        "photos": null,
+        "rating": 3
+      },
+      {
+        "id": "ChIJy7CRdHt_mQARBqsQMWbC2uk",
+        "name": "Vovó House",
+        "slug": "vovo-house-santa-teresa-rj",
+        "pricingRange": null,
+        "address": "Ladeira de Santa Teresa, 128 - Santa Teresa, Rio de Janeiro",
+        "photos": [
+          {
+            "height": 720,
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116862252815657371315\">vovohouse</a>"
+            ],
+            "photo_reference": "ATtYBwI3UrUoCM7tkyHTGTv3EEEBakh8QgS7vuRSz1XXfLks6KNveqsqmEgNxlyYVHo3IhWP414OzXUeFDvCjfX4K7XnBAnBlwN8d0Lc6pWpj4FNZRwLKUMujhP2HXkshH1jhwZSGNVAs92-aYchrNQWsPB3cJuN5PlgnNege38WEsUilGZL",
+            "width": 960
+          }
+        ],
+        "rating": 4.7
+      },
+      {
+        "id": "ChIJadiiIQl_mQAR_XcTjqMTW9o",
+        "name": "Rede Ser",
+        "slug": "rede-ser-gloria-rj",
+        "pricingRange": null,
+        "address": "R. Santo Amaro, 11 - Glória, Rio de Janeiro",
+        "photos": [
+          {
+            "height": 1418,
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114199232957469546101\">A Google User</a>"
+            ],
+            "photo_reference": "ATtYBwJqtYFEf1Oq62zTmg_gS2OmObkEis4qR-hW52ToUm6ErhuZ2je6w9hk_JSq-UGL2d3U0biEzdHsTPjW5fUqBJfTqyQxbM_uW_ZGzytuqem68bIvkYcBEHwScgls6I459bWSXK9phn1xZ5CteLVYln0FqtoCSmEFpsARKb_rgJfSAOsB",
+            "width": 2048
+          }
+        ],
+        "rating": 4.8
+      },
+      {
+        "id": "ChIJ_Yr6L3h_mQARg5AeE5o2358",
+        "name": "Repouso Santa Tereza",
+        "slug": "repouso-santa-tereza-santa-teresa-rj",
+        "pricingRange": null,
+        "address": "R. Santa Cristina, 161 - Santa Teresa, Rio de Janeiro",
+        "photos": [
+          {
+            "height": 533,
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105950501111837205084\">Repouso Santa Tereza</a>"
+            ],
+            "photo_reference": "ATtYBwLJ_0gdHJ9zgTssOWyrT7PGQlLe4yo-lokTxLOeRgmFTGdxkF2BPHuxL7v4RXg-tkmM0xYCtZmvjd1Siek1sil4hyVRTvcTuuKwUACVYRYcy6niJO8VEc6I5V-AiSAKCjy3joAlrH2NOQMtdtxQSSPMBwHwLaXeFXuPWsN9yNDU4XXG",
+            "width": 800
+          }
+        ],
+        "rating": 3.8
+      },
+      {
+        "id": "ChIJ50ty6zB_mQARPGuXjbsN7us",
+        "name": "Casa de Repouso para Idosos Saint Michel - RJ",
+        "slug": "casa-de-repouso-para-idosos-saint-michel-rj-praca-da-bandeira-rj",
+        "pricingRange": null,
+        "address": "Av. Paulo de Frontin, 444 - Praca da Bandeira, Rio de Janeiro",
+        "photos": [
+          {
+            "height": 720,
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107232417449108299979\">A Google User</a>"
+            ],
+            "photo_reference": "ATtYBwLGaD5fMmSNQx4K9ioF7vAGxDM6owiOO8OfY8YdvIEdN_1ZNk_QWYGzI0t3YtN0UguhDpah58508djU-U4gyBt9XcMcZA6vbQO3P_62T481saieGJ0j2WTF6vnNWcy1rUn06VdhhXWbyCMGY2thtMNSyJVupnzRffq9D9XgM2slOTs-",
+            "width": 960
+          }
+        ],
+        "rating": 5
+      },
+      {
+        "id": "ChIJv-ckzH2BmQARCcgnhmpSoT4",
+        "name": "Geros Center Niterói . Casa de Repouso para Idosos",
+        "slug": "geros-center-niteroi-casa-de-repouso-para-idosos-boa-viagem-rj",
+        "pricingRange": null,
+        "address": "Rua Antônio Parreiras, 26 - Boa Viagem, Niterói",
+        "photos": [
+          {
+            "height": 2456,
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114496396640240049303\">A Google User</a>"
+            ],
+            "photo_reference": "ATtYBwKLVj0iSfRx6kGT1esi7FF2sqz-xsnjSUF0NmJreKnLgeYyHR1rBM8_J1jpn-0Dh0H63Uz_zRtOYVj5mOYC5sAaj-rYV9lABKszgZlYNVVXQ6VINz0cTN1xDi4UPvnha1x7GGciWPzc2oGSHb5PtLq_wfFzbCh8NxPBSdvsN_kDwYEx",
+            "width": 6762
+          }
+        ],
+        "rating": 4.7
+      },
+      {
+        "id": "ChIJKzn5BrR_mQAR_7_BNduaLyY",
+        "name": "Chalé da Vovó Clinica de Repouso",
+        "slug": "chale-da-vovo-clinica-de-repouso-rio-comprido-rj",
+        "pricingRange": null,
+        "address": "Av. Paulo de Frontin, 685 - Rio Comprido, Rio de Janeiro",
+        "photos": null,
+        "rating": 0
+      },
+      {
+        "id": "ChIJnzj5BrR_mQARWCIOnTai8vQ",
+        "name": "Chalé da Vovó - Casa de Repouso de longa permanência",
+        "slug": "chale-da-vovo-casa-de-repouso-de-longa-permanencia-rio-comprido-rj",
+        "pricingRange": null,
+        "address": "Av. Paulo de Frontin, 685 - Rio Comprido, Rio de Janeiro",
+        "photos": [
+          {
+            "height": 3744,
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113254191511651503388\">Chalé da Vovó - Clinica de Repouso</a>"
+            ],
+            "photo_reference": "ATtYBwLplZKS_2RMAWPFV2QH6Vip99uUbC0l6oHscKqR6cT22vCYL6_oYEh3NTNERyxHvwiNvaoyYs1wH-OW62uf-7BPU7atZeRr66nq0OX9NwH2vvRUGG1MWf-ZEg18XIikAvNq3JpFh24NW-LuQU3n1OITO_KIrhG787bWYmQQ0Z5RWT9z",
+            "width": 5616
+          }
+        ],
+        "rating": 4.5
+      },
+      {
+        "id": "ChIJtzahCbR_mQARjrrzm0r3OI0",
+        "name": "Casa de Repouso Hermitage",
+        "slug": "casa-de-repouso-hermitage-rio-comprido-rj",
+        "pricingRange": null,
+        "address": "Elevado Engenheiro Freyssinet, 756 - Rio Comprido, Rio de Janeiro",
+        "photos": null,
+        "rating": 4
+      },
+      {
+        "id": "ChIJoRjoyM5_mQARWVyY8r8wEGY",
+        "name": "ACASA | Unidade Cosme Velho",
+        "slug": "acasa-or-unidade-cosme-velho-cosme-velho-rj",
+        "pricingRange": null,
+        "address": "R. Indiana, 90 - Cosme Velho, Rio de Janeiro",
+        "photos": null,
+        "rating": 5
+      },
+      {
+        "id": "ChIJE_fnIlB-mQARyfmK3QMEcAE",
+        "name": "Casa de Repouso São Mateus",
+        "slug": "casa-de-repouso-sao-mateus-tijuca-rj",
+        "pricingRange": null,
+        "address": "Av. Heitor Beltrão, 98 - Tijuca, Rio de Janeiro",
+        "photos": [
+          {
+            "height": 1920,
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/111943496697601957578\">Casa de Repouso São Mateus</a>"
+            ],
+            "photo_reference": "ATtYBwKwylskm9M37vMe1jGtWZwY9WIqy_74R53SXMdV3OaWEkXnWYjkp_UOoDcSkcR4bAGZWELSR2DOzwNdwamSE_0b7yXyU2OSKJc-I-e7dDZTBuFLQRy6-T0URZ5vrezrn2_jqrsu-YmLhjghfhN27BcbmH9LD_lI2zTASCsZ0M0wF0-3",
+            "width": 2560
+          }
+        ],
+        "rating": 4
+      },
+      {
+        "id": "ChIJ-bGLtdV-mQARVlwsuaf5NzI",
+        "name": "Casa São Luiz",
+        "slug": "casa-sao-luiz-caju-rj",
+        "pricingRange": null,
+        "address": "R. Gen. Gurjão, 533 - Caju, Rio de Janeiro",
+        "photos": [
+          {
+            "height": 1536,
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108886335838948986649\">Casa São Luiz</a>"
+            ],
+            "photo_reference": "ATtYBwLSA_WGu0nMWAr5_PB3L1pNZwTUu-qtGdvVjH0zih1WxTIUgeHCqwAPQYhSChjSV9ESwWfozFd3r5C2brzzwTJV4prF04RXb9fwLqAPTkGJotLppNMhzPwQko6OfomydwVhgRdWklAAfGsmnjaBEKsr2WO4-j9mlFNHxyIqCQBTJWWc",
+            "width": 2048
+          }
+        ],
+        "rating": 3.6
+      },
+      {
+        "id": "ChIJs_DnIlB-mQARCm9Sp-vrVzY",
+        "name": "Recanto São Mateus",
+        "slug": "recanto-sao-mateus-maracana-rj",
+        "pricingRange": null,
+        "address": "R. Lúcio de Mendonça, 35 - Maracanã, Rio de Janeiro",
+        "photos": null,
+        "rating": 3
+      },
+      {
+        "id": "ChIJv8QzltmDmQAROuiHs1aPQ-Y",
+        "name": "Rede Vip Residencial - Hotelaria para 3ª Idade",
+        "slug": "rede-vip-residencial-hotelaria-para-3a-idade-inga-rj",
+        "pricingRange": null,
+        "address": "R. Fagundes Varela, 294 - Ingá, Niterói",
+        "photos": null,
+        "rating": 0
+      },
+      {
+        "id": "ChIJcUNCFNyDmQAROWNLT71iSPw",
+        "name": "Casa de Repouso - Rede Vip Residencial",
+        "slug": "casa-de-repouso-rede-vip-residencial-inga-rj",
+        "pricingRange": null,
+        "address": "R. Fagundes Varela, 294 - Ingá, Niterói",
+        "photos": [
+          {
+            "height": 767,
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107490941358984737688\">A Google User</a>"
+            ],
+            "photo_reference": "ATtYBwK1nGYiCyXrsF5SLyYGAiwo_MxmyfKEyJN6zvSZhD1aduNtepyw4wiT74FrD7m3QMGqd_37jOM9mBZ2zcnugGPGY9MTxchqb3YbR8Ff6Tk8PxLfctvgG_VyB1c9U3FylojFLOQMADunH9f8i0dZuF5AHOWTEu11Z1tTDvBa47hPMOV6",
+            "width": 1132
+          }
+        ],
+        "rating": 5
+      },
+      {
+        "id": "ChIJ11dkK-l-mQARBf0-1iuSJdg",
+        "name": "Casa de Repouso São Cristóvão",
+        "slug": "casa-de-repouso-sao-cristovao-vasco-da-gama-rj",
+        "pricingRange": null,
+        "address": "R. Gen. José Cristino, 88 - Vasco da Gama, Rio de Janeiro",
+        "photos": null,
+        "rating": 3.7
+      },
+      {
+        "id": "ChIJ-YiCcL1_mQARsUuhBtM2x6U",
+        "name": "ACASA | Unidade Botafogo",
+        "slug": "acasa-or-unidade-botafogo-botafogo-rj",
+        "pricingRange": null,
+        "address": "R. Álvaro Ramos, 388 - Botafogo, Rio de Janeiro",
+        "photos": [
+          {
+            "height": 1032,
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107931734515955376476\">Josue Gomes</a>"
+            ],
+            "photo_reference": "ATtYBwJUAIuVbGkhAVINTqKJcAMXbAsJb2PY36dKFvfTBeE4fXCTxVxtV1XzHq7n7lEsE-qoeF9BSCsJ8SrERKWIphEcU_c1v7N9YuMVOAb__GEwFGDbJtnJ8EZzMlOcJYgPRySAy1YTQHLgrOLVkDU5MFTSeIlJI_qKYhcnt-auOnvO5hXF",
+            "width": 581
+          }
+        ],
+        "rating": 4.7
+      },
+      {
+        "id": "ChIJ969Vpfx_mQARq7Ob3ZMjjik",
+        "name": "Casa de Repouso Vila do Sol",
+        "slug": "casa-de-repouso-vila-do-sol-botafogo-rj",
+        "pricingRange": null,
+        "address": "R. Álvaro Ramos, 385 - Botafogo, Rio de Janeiro",
+        "photos": [
+          {
+            "height": 3024,
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114382547352245048143\">Gloria Accioly</a>"
+            ],
+            "photo_reference": "ATtYBwJODFE0LpPF_AZZyoGzNwi2nLqQ7ne8DoUhnMtFtlhhxQgmzvavRE6i_HSiCl59_MLpRarpT30XXDrkHIZTxfwzHrF6SdUxbw3_IcJLQOEvxzSVbsJZcEQ4nGqa_kJ_quux0bttVUamnPNbj2IrN-JzfLO5T_mmDMmJDJwGuS7jzazO",
+            "width": 4032
+          }
+        ],
+        "rating": 4.5
+      },
+      {
+        "id": "ChIJq86_3t9_mQAR6vKCjBFNFuw",
+        "name": "Velhos Amigos",
+        "slug": "velhos-amigos-botafogo-rj",
+        "pricingRange": null,
+        "address": "R. Visc. de Caravelas, 63 - Botafogo, Rio de Janeiro",
+        "photos": null,
+        "rating": 3.8
+      }
+    ],
+    "initialNextPage": "ATtYBwI_f4SxHZRe6Nwg3pXXDApoXsq8SayA6qFWItExB5q5rVXRQjFvnfQ-Vg9omUhcnvkHsKEBvIlvHbdVun1oUOBt9ioE6kJvfeHVvkVnDWGTkNhVJoSrqYwRxcNezKsG0-wlvx4_-cuH7h9KzFruPUIl235N9Phr5WPBiudLRYY3P8YbAZ51WatULyOKkiSXIU1up0PzA2agkT0joWmMQ2gSSXv4BkwrSdKH3wFZwZxWzPGBzcD8Id4f9LldQLwOryOIpiHZnG4swHhUJP3SN4svI-Sq6KR2T4Gq5yyb__msTrvxu_x6FGbEhp0QhRppwbGAUh8WwxjrA8JEAekcCqxVckqTpDUcHouxL_bAK-w2vggOSRVXV2SybqzDJAWMsD7J-VSmjdPNSaACXOu9znoop78Bqgt0D-x2WYhfP0sLZMZWYD3XyxfDgjDovuvQ465LG5LtSNFeoxo",
+    "location": "Rio de Janeiro, RJ, Brasil"
+  },
+  "__N_SSP": true
+}

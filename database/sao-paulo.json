@@ -1,0 +1,298 @@
+{
+  "pageProps": {
+    "partners": [],
+    "initialPlaces": [
+      {
+        "id": "ChIJ__-P7qZZzpQRmCplkgippX0",
+        "name": "Assistência Social Dom José Gaspar Ikoi-no-Sono (Escritório)",
+        "slug": "assistencia-social-dom-jose-gaspar-ikoi-no-sono-escritorio-7-undefined",
+        "pricingRange": null,
+        "address": "Rua São Joaquim, 381 - 4ºandar Sala 42 Liberdade - Aurelio rg2638462-7, São Paulo",
+        "photos": null,
+        "rating": 5
+      },
+      {
+        "id": "ChIJiyqoEzhYzpQRbJfPJhOpJbo",
+        "name": "Cora Residencial Senior",
+        "slug": "cora-residencial-senior-higienopolis-sp",
+        "pricingRange": null,
+        "address": "R. Marquês de Itu, 816 - Higienópolis, São Paulo",
+        "photos": [
+          {
+            "height": 1333,
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107205825482576535738\">A Google User</a>"
+            ],
+            "photo_reference": "ATtYBwKXiPwHAefQMnLyuHLBSQmNq1o4A6Hu6zDZbQorIDnM--l4pVdY1Kc-O9S_oIDjspYx0smunKYIIPSGR0KJ1emWe-V4_sY2fx6u1F1GGqrbSBT7DJ0z0PFXWJXgotX6D1mjko4XO-GBmYo7qBgnSOWjlsIoqIkTuWeA4hyySGhvCcQp",
+            "width": 2000
+          }
+        ],
+        "rating": 4
+      },
+      {
+        "id": "ChIJIWcRAspZzpQRu2aCk3TIMbk",
+        "name": "Aninha's Home Sweet Home",
+        "slug": "aninhas-home-sweet-home-jardim-paulista-sp",
+        "pricingRange": null,
+        "address": "R. Pamplona, 21 - Jardim Paulista, São Paulo",
+        "photos": null,
+        "rating": 0
+      },
+      {
+        "id": "ChIJqd1H5UJYzpQRb96ZZSxV8po",
+        "name": "Casa Do IDOSO PMSP",
+        "slug": "casa-do-idoso-pmsp-campos-eliseos-sp",
+        "pricingRange": null,
+        "address": "Rua Helvétia, 228 - Campos Elíseos, São Paulo",
+        "photos": [
+          {
+            "height": 1152,
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115003985939404063177\">tobias rodrigues</a>"
+            ],
+            "photo_reference": "ATtYBwL7Lk8Mg4hJcWqe4jc3tq3IO01fGzOb6TlQHOm_qVlxcsXOmJHqva3gJmBSbnLYa6afEmZPCxserK-3lowP8VQuQeHsj_SWChhCZWKcF_eoZneYJqJez7QtUo0J1HNa9OgPy3kBowOXliC3XQmBEZeU6Vq4ZF5xjqq0RuTg3erbMW1F",
+            "width": 2048
+          }
+        ],
+        "rating": 4
+      },
+      {
+        "id": "ChIJCVDJWZ1ZzpQRHWCtds8WeQ0",
+        "name": "Cogitare Senior - Casa de Repouso Aclimação",
+        "slug": "cogitare-senior-casa-de-repouso-aclimacao-aclimacao-sp",
+        "pricingRange": null,
+        "address": "R. Dr. João Maia, 148 - Aclimação, São Paulo",
+        "photos": [
+          {
+            "height": 3072,
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108433350993194281917\">Cogitare Senior - Casa de Repouso Aclimação</a>"
+            ],
+            "photo_reference": "ATtYBwKu4-XZKldK71HTzTj1qw6iieXdEaTiOHC58RIJ_GCS1AqHCPpnJHDmWOLKjuAWPlVh0HDEQd-koMaApXIK62t0pbtfe65DW7SyR09Qcb-IteYx9_tdaGNTwfI9QBcqb6bEF823SWoJrrPA51XntzB8UsQHZ1gJ07z41mOXIdaiTCGZ",
+            "width": 4608
+          }
+        ],
+        "rating": 4.8
+      },
+      {
+        "id": "ChIJ3VAmrEJZzpQRhXU-R5GrrJQ",
+        "name": "Lar ipiranga",
+        "slug": "lar-ipiranga-vila-monumento-sp",
+        "pricingRange": null,
+        "address": "R. Leandro de Carvalho, 127 - Vila Monumento, São Paulo",
+        "photos": null,
+        "rating": 5
+      },
+      {
+        "id": "ChIJe2BGcC5YzpQRwpeJeH-w8uk",
+        "name": "Grupo Orion Saúde - Home Care e Casa de Crônicos",
+        "slug": "grupo-orion-saude-home-care-e-casa-de-cronicos-higienopolis-sp",
+        "pricingRange": null,
+        "address": "R. Minas Gerais, 6 - Higienópolis, São Paulo",
+        "photos": [
+          {
+            "height": 3724,
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113945721910459628479\">Danillo Ferreira Barros De Melo</a>"
+            ],
+            "photo_reference": "ATtYBwJKdKOBIExEtsIE8Vm7S9cHycJn2xTrAv3ytIgq_uytb-PCGH1tvlC9ZJXVNU83xKOIzDa2DCoigKpJJ0Fj8odFlkQu_QcdNA3wjOPUel3iziaivpnLte40royNSDoIiEbzKKMtESP3HqrYAkRc_47fBcVgOFFjcicBwYxoQTD0VmRU",
+            "width": 8410
+          }
+        ],
+        "rating": 5
+      },
+      {
+        "id": "ChIJ3aiAIBdYzpQRIa0tIFf5ymk",
+        "name": "Casa Higienópolis",
+        "slug": "casa-higienopolis-santa-cecilia-sp",
+        "pricingRange": null,
+        "address": "Rua Dr. Gabriel dos Santos, 128 - Santa Cecilia, São Paulo",
+        "photos": [
+          {
+            "height": 872,
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116250045303480668899\">A Google User</a>"
+            ],
+            "photo_reference": "ATtYBwIc13JyK2qcoZx5D4lsTZBAU4xelHzyFH-YQEMRK-FZx_MtnRIHPnUrab4yvymwOKNpc7CJV_GsNX09PXsLyEy45UsqEax1hMv2KBcGxipyYCDMs8Yx22F14mTyAF4PSjExgynzFaKx6iC_JNl1AOCF0VNeZmNRx9cyOZ01JTjFGmUu",
+            "width": 1160
+          }
+        ],
+        "rating": 2.9
+      },
+      {
+        "id": "ChIJ6y0l0yZYzpQRrM_j4S_F-GQ",
+        "name": "Em Família Residencial para Idosos",
+        "slug": "em-familia-residencial-para-idosos-pacaembu-sp",
+        "pricingRange": null,
+        "address": "Av. Pacaembu, 1739 - Pacaembu, São Paulo",
+        "photos": [
+          {
+            "height": 1536,
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107049428988983496517\">Em Família Residencial para Idosos</a>"
+            ],
+            "photo_reference": "ATtYBwK8_vm2tZprvUJcJBogNvnJfjK6oy6KBJqCDx1QFaKxLpBvcB7BteLmqlQe5oexfd_v94I_fKkgaJ7h1f9LmXKFFXl8qU7AhprVY1L-el5k00pRjavcgN3Bp-5cTnUoLyxnj51vMfZmWZYmROWrHFUDICkwQ4l6OZS05C6V-Glvnidr",
+            "width": 2048
+          }
+        ],
+        "rating": 4.3
+      },
+      {
+        "id": "ChIJw5OsI0lZzpQRvh8glfQuRKo",
+        "name": "Casa de Repouso Bem Vivere",
+        "slug": "casa-de-repouso-bem-vivere-parque-da-mooca-sp",
+        "pricingRange": null,
+        "address": "Av. Paes de Barros, 401 - Parque da Mooca, São Paulo",
+        "photos": [
+          {
+            "height": 852,
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114087171243981273681\">Casa de Repouso Bem Vivere</a>"
+            ],
+            "photo_reference": "ATtYBwKFlJutMaB9IiatxScmmp5baZ9oNmyLW2BLBdzFkFuWAHnPnyNC2NuiZT0nylSHqsBVPhnv6k2VAxAa2nhZGiuawcH3x881Rk1lBy8v3LOcT1bo4hG1hOfXHuw__To1spPZmMbPUBVPOgaA8GxsKggFl3fP17a2g4DxLhFMZL-tVDHS",
+            "width": 1277
+          }
+        ],
+        "rating": 4.4
+      },
+      {
+        "id": "ChIJb7CNERdZzpQRLz7t_EdK5lw",
+        "name": "Casa de repouso Elite",
+        "slug": "casa-de-repouso-elite-pacaembu-sp",
+        "pricingRange": null,
+        "address": "Rua Traipú, 77 - Pacaembu, São Paulo",
+        "photos": null,
+        "rating": 4
+      },
+      {
+        "id": "ChIJoZentxtYzpQR9KJmxmGdFqk",
+        "name": "Casa de Repouso Morada do Sol",
+        "slug": "casa-de-repouso-morada-do-sol-perdizes-sp",
+        "pricingRange": null,
+        "address": "R. Dr. Cândido Espinheira, 412 - Perdizes, São Paulo",
+        "photos": null,
+        "rating": 4.5
+      },
+      {
+        "id": "ChIJS_RIwl9ZzpQR7MwrPBCf6_Q",
+        "name": "Novos Amigos - Residencial e Casa de Repouso",
+        "slug": "novos-amigos-residencial-e-casa-de-repouso-ipiranga-sp",
+        "pricingRange": null,
+        "address": "R. Mariano Procópio, 111 - Ipiranga, São Paulo",
+        "photos": null,
+        "rating": 5
+      },
+      {
+        "id": "ChIJy8Ll4ktZzpQRiK4EdoH-hJk",
+        "name": "Casa de Repouso New Life",
+        "slug": "casa-de-repouso-new-life-mooca-sp",
+        "pricingRange": null,
+        "address": "R. Padre Raposo, 272 - Mooca, São Paulo",
+        "photos": [
+          {
+            "height": 960,
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104206307407080664534\">A Google User</a>"
+            ],
+            "photo_reference": "ATtYBwJRy-NDAhuaTRWtOXGwmMSETTWwF3MOyNajb23nv4Lf3f9Ue65IPlnA-KvgNb_Bz3OvAsTORQeSaHm7bzluvIrz_ubNrZMd27DjzXDuhdXng8eEcfudHS4rd8xtbCbQuvqR6F3I0b-vCzpMObPHDgI2Eu-SJ0bRznOl2MMF9XI0eV_3",
+            "width": 1280
+          }
+        ],
+        "rating": 5
+      },
+      {
+        "id": "ChIJ9_U6Vo9ZzpQRwnKrEzXc8GE",
+        "name": "Casa de Repouso Vila Mariana",
+        "slug": "casa-de-repouso-vila-mariana-vila-mariana-sp",
+        "pricingRange": null,
+        "address": "Av. Conselheiro Rodrigues Alves, 367 - Vila Mariana, São Paulo",
+        "photos": [
+          {
+            "height": 640,
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103843027310805455150\">A Google User</a>"
+            ],
+            "photo_reference": "ATtYBwLqP0MW-HeLu6m9HGabYabr8gVCKj8e1iqcQq3_Sugucc6cDu1vL16EUVGq5OwylwgzWAKi-vRtpws7z0kjrgG-RGGrVHLIxN5J_ZKhD256Xn1Aa-AvJpPCoXv5ZcsGJPGJEnPsTHQQIr6T_bKyiS-SNwh8r9o_5nDxUqOSXgeO7IJn",
+            "width": 960
+          }
+        ],
+        "rating": 4.3
+      },
+      {
+        "id": "ChIJx8aIAVJZzpQRo2FbdYJK3to",
+        "name": "Casa Athenna",
+        "slug": "casa-athenna-parque-da-mooca-sp",
+        "pricingRange": null,
+        "address": "Rua Camé, 512 - Parque da Mooca, São Paulo",
+        "photos": null,
+        "rating": 5
+      },
+      {
+        "id": "ChIJGz3IkLVezpQRLFVFv5Nf860",
+        "name": "Casa de Repouso Hotel Residencial Boa Vida",
+        "slug": "casa-de-repouso-hotel-residencial-boa-vida-mooca-sp",
+        "pricingRange": null,
+        "address": "R. Dias Leme, 38 - Mooca, São Paulo",
+        "photos": [
+          {
+            "height": 750,
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103204323245323319312\">hotel residencial boa vida</a>"
+            ],
+            "photo_reference": "ATtYBwIt0Ac3RcNRC368KAufXcxHXjbl8mbNB36r_dDrWIsNh4HltTytVxITGCivDDZqzb_I6oHU8yRvVzpEMGtqislk-LbeQ2J4PEfRob7yuQoA83bCF_vKZbapUBGWnlWjLPVQYd3tJk1DslOpAWwAGSbXjqZuXoZDpICfMT63TbRxR096",
+            "width": 1334
+          }
+        ],
+        "rating": 5
+      },
+      {
+        "id": "ChIJI2U7mYlXzpQRNZmHS-cMG8A",
+        "name": "Casa de Repouso Viva Bem",
+        "slug": "casa-de-repouso-viva-bem-pacaembu-sp",
+        "pricingRange": null,
+        "address": "R. Alm. Pereira Guimarães, 405 - Pacaembu, São Paulo",
+        "photos": [
+          {
+            "height": 2448,
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104832161694832356387\">Higor Sampaio</a>"
+            ],
+            "photo_reference": "ATtYBwJERstXLvKuF5M089Uy2yTD_7JBCfgPPkgesvwfe8mCRpsed_N0YtzsqTr1WrVmZG8zLYyzWVFQIc6Ere8c4ePOskzJRdV4sIB4N4krOtzp32TtTScOqI8qarnlbkgBH26GnpbvqRyzZIdhSMROx5vpNeXrTyq0oDzEINcpsnRXYQIN",
+            "width": 3264
+          }
+        ],
+        "rating": 4.9
+      },
+      {
+        "id": "ChIJtaPIx8xezpQRyNzmfFlmCBA",
+        "name": "Lar Portal da Esperança Casa de Repouso para Idosos",
+        "slug": "lar-portal-da-esperanca-casa-de-repouso-para-idosos-belenzinho-sp",
+        "pricingRange": null,
+        "address": "R. Paraupava, 80 - Belenzinho, São Paulo",
+        "photos": null,
+        "rating": 0
+      },
+      {
+        "id": "ChIJQRMi7jdZzpQRqCyS1-IAc-w",
+        "name": "Casa de Repouso Bem Me Care Unidade II",
+        "slug": "casa-de-repouso-bem-me-care-unidade-ii-parque-da-mooca-sp",
+        "pricingRange": null,
+        "address": "Rua Guaimbé, 570 - Parque da Mooca, São Paulo",
+        "photos": [
+          {
+            "height": 768,
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109236054988949712415\">A Google User</a>"
+            ],
+            "photo_reference": "ATtYBwImn9e_Uu-TZoG5Cu2XFWmo-fcEbw_FHp6zhw3HP-LUzuGeExfC8VyQfrt6ZbfjClIHjtymoq5VKNozUegjNbm34G1AzdFhtA5L4aUk3A7MAf9T3pb5-8CSEDF5ffDeGR2BTYy80IXMlLQM_LoMvzX6LT_yLQwHXn92D0iifAJRQUGr",
+            "width": 1024
+          }
+        ],
+        "rating": 3.5
+      }
+    ],
+    "initialNextPage": "ATtYBwJRosudF47GLdBUtFKqL5KSm81oZxlGfYAU42p2469RA8W7KfVSttvMAKQ__tngcvJ4huMqSzTd00e-YFvSmmTebD8WwGV6ItH2ZXXsnitQzNvivWetNJzO7i5actoVASjk0bwRz9asGhAqApDMJq5_U4QYrjoYhTnTHgXPbUiWT-ZHLAC4O-tMUaP--BUrJvyC2FG4P81AQOcdZA6v18RhwW_hFMvkijmjhzgrD5hrxm-dlQbC-OtzYpPasvoxfMyLAmaur_POyTqSUheDqMvgoDAyHUvMCWQ9jcHQAEBXRCQFSuePf32KaUf2zf-ZQj9VkvHPKHpI17NbAxwbIabFLTQNm_vlntxk9nCt5SwQZDJI2IYP3uch0PNS_Ord_9Wg3Htl7-8l6skkcAaESa4kApdipnMuUMD7sn-hbkYQRDxHpHKgsi67r82plb7XLGXS28Z8bY937rE",
+    "location": "São Paulo, SP, Brasil"
+  },
+  "__N_SSP": true
+}

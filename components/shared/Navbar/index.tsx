@@ -5,14 +5,14 @@ import styles from './styles.module.scss'
 export default  function Navbar() {
   return (
     <nav className={styles.navbar}>
-      <img src="/logo.webp" alt="Guia Longevidade" />
+      <Link href='/'><img src="/logo.webp" alt="Guia Longevidade" /></Link>
       <div className={styles.search}>
         <input placeholder="Digite sua localização..." />
         <span className="fa fa-search fa-2x"/>
       </div>
       <div className={styles.menu}>
         <Link href='/'>Início</Link>
-        <Link href={'/blog'}>Blog</Link>
+        <Link href='https://guialongevidade.com.br/blog'>Blog</Link>
       </div>
     </nav>
   );
