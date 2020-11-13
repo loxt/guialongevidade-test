@@ -4,6 +4,7 @@ import { IList } from '../../common/interfaces/IList.interface';
 
 import rj from '../../database/rio-de-janeiro.json';
 import sp from '../../database/sao-paulo.json';
+import Link from 'next/link';
 
 export default function Header() {
   const dataSp = JSON.parse(JSON.stringify(sp));
@@ -48,15 +49,29 @@ export default function Header() {
         {/* https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=CnRtAAAATLZNl354RwP_9UKbQ_5Psy40texXePv4oAlgP4qNEkdIrkyse7rPXYGd9D_Uj1rVsQdWT4oRz4QrYAJNpFX7rzqqMlZw2h2E2y5IKMUZ7ouD_SlcHxYq1yL4KbKUv3qtWgTK0A6QbGh87GB3sscrHRIQiG2RrmU_jF4tENr9wGS_YxoUSSDrYjWmrNfeEHSGSc3FyhNLlBU&key=AIzaSyAeEmKzkgtVZRQy5_9ZRD4cJCrT472ASYA*/}
       </div>
       {menuList && (
-        <div className={styles.container}>
-          {menuList.map((place) => {
-            if (
-              place.address.toLowerCase().includes(text.toLowerCase()) ||
-              place.location.toLowerCase().includes(text.toLowerCase())
-            ) {
-              return <p key={place.id}>{place.address}</p>;
-            }
-          })}
+        <div className={styles.listContainer}>
+          <div className={styles.page}>
+            <h3>Página 1</h3>
+            <div>
+              <span className='fa fa-arrow-left fa-2x' />
+              <span className='fa fa-arrow-right fa-2x' />
+            </div>
+          </div>
+          {menuList
+            .filter(
+              (place) =>
+                place.address.toLowerCase().includes(text.toLowerCase()) ||
+                place.location.toLowerCase().includes(text.toLowerCase()) ||
+                place.name.toLowerCase().includes(text.toLowerCase()),
+            )
+            .slice(0, 10)
+            .map((place) => {
+              return (
+                <Link href={'/'} key={place.id}>
+                  {place.name}
+                </Link>
+              );
+            })}
         </div>
       )}
     </header>

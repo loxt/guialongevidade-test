@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Guia Longevidade</title>
+        <title>Guia Longevidade: Encontre Moradia para Idosos</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <div>
