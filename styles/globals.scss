@@ -1,3 +1,6 @@
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
 *,
 *::before,
 *::after {
@@ -9,4 +12,8 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
 }

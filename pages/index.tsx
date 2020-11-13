@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Photo App</title>
+        <title>Guia Longevidade</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <div>
