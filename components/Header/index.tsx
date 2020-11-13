@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import styles from './styles.module.scss';
 import { IList } from '../../common/interfaces/IList.interface';
-import { useRouter } from 'next/router';
+import Router from 'next/router';
 import rj from '../../database/rio-de-janeiro.json';
 import sp from '../../database/sao-paulo.json';
 
@@ -34,13 +34,18 @@ export default function Header() {
   if (place) viewDetails(place);
 
   async function viewDetails(place: IList) {
-    const router = useRouter();
     // await router.push({
     //   pathname: ``,
     // });
-    await router.push(
+    await Router.push(
       {
-        pathname: `/details?address=${place.address}&name=${place.name}&location=${place.location}&rating=${place.rating}`,
+        pathname: `/details`,
+        query: {
+          address: place.address,
+          name: place.name,
+          location: place.location,
+          rating: place.rating,
+        },
       },
       '/details',
     );

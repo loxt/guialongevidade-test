@@ -1,0 +1,64 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: -25rem auto;
+  height: 50rem;
+  width: 100%;
+  max-width: 50vw;
+  position: relative;
+  z-index: 10000;
+  background-color: #f7f7f7;
+  border-radius: 1rem;
+  padding: 2rem;
+  border: 3px solid #2E55D0;
+
+  .location {
+    margin: 0 auto;
+    span {
+      font-size: 1.4rem;
+      color: #777 ;
+      &:first-child {
+        margin-right: 1rem;
+      }
+      margin-bottom: 3rem;
+    }
+  }
+
+
+  h1 {
+    text-align: center;
+    color: #2E55D0;
+    font-size: 2.4rem;
+  }
+
+  .itemContainer {
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    grid-gap: 3rem;
+    grid-template-columns: repeat(2, minmax(min-content, 25rem));
+
+    .star {
+      span {
+        color: gold;
+      }
+      p {
+        color: #777;
+        font-weight: bold;
+      }
+    }
+
+    p {
+      font-size: 1.6rem;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+  }
+}
