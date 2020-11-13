@@ -4,39 +4,28 @@ import { IList } from '../../common/interfaces/IList.interface';
 
 import rj from '../../database/rio-de-janeiro.json';
 import sp from '../../database/sao-paulo.json';
-import Select from '../Select';
 
 export default function Header() {
   const dataSp = JSON.parse(JSON.stringify(sp));
   const dataRj = JSON.parse(JSON.stringify(rj));
   const [list, setList] = useState<IList[]>([]);
-  const [menuList, setMenuList] = useState<IList>(null);
-  let clicked = false;
+
+  const [menuList, setMenuList] = useState<IList[]>(null);
+  const [text, setText] = useState('');
 
   useEffect(() => {
-    setList([
-      {
-        initialPlaces: dataSp.pageProps.initialPlaces,
-        location: dataSp.pageProps.location,
-      },
-      {
-        initialPlaces: dataRj.pageProps.initialPlaces,
-        location: dataRj.pageProps.location,
-      },
-    ]);
-  }, [clicked]);
+    setList(
+      dataSp.pageProps.initialPlaces.concat(dataRj.pageProps.initialPlaces),
+    );
+  }, []);
 
-  async function getList(text: string) {
-    if (text != '') {
-      list.map((l) => {
-        if (
-          l.initialPlaces.some((value) =>
-            value.address.toLowerCase().includes(text.toLowerCase()),
-          )
-        ) {
-          setMenuList(l);
-        }
+  function getList(text: string) {
+    if (text.length > 0) {
+      const array = list.map((place) => {
+        place.location = place.address.split(', ')[2];
+        return place;
       });
+      setMenuList(array);
     }
   }
 
@@ -51,19 +40,25 @@ export default function Header() {
 
         <div className={styles.search}>
           <input
-            onChange={(e) => getList(e.target.value)}
-            placeholder='São Paulo, SP'
+            onChange={(e) => setText(e.target.value)}
+            placeholder='São Paulo e Rio de Janeiro apenas'
           />
-          <span
-            onClick={() => {
-              console.log('1');
-              clicked = !clicked;
-              console.log(clicked);
-            }}
-            className='fa fa-search fa-2x'
-          />
+          <span onClick={() => getList(text)} className='fa fa-search fa-2x' />
         </div>
+        {/* https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=CnRtAAAATLZNl354RwP_9UKbQ_5Psy40texXePv4oAlgP4qNEkdIrkyse7rPXYGd9D_Uj1rVsQdWT4oRz4QrYAJNpFX7rzqqMlZw2h2E2y5IKMUZ7ouD_SlcHxYq1yL4KbKUv3qtWgTK0A6QbGh87GB3sscrHRIQiG2RrmU_jF4tENr9wGS_YxoUSSDrYjWmrNfeEHSGSc3FyhNLlBU&key=AIzaSyAeEmKzkgtVZRQy5_9ZRD4cJCrT472ASYA*/}
       </div>
+      {menuList && (
+        <div className={styles.container}>
+          {menuList.map((place) => {
+            if (
+              place.address.toLowerCase().includes(text.toLowerCase()) ||
+              place.location.toLowerCase().includes(text.toLowerCase())
+            ) {
+              return <p key={place.id}>{place.address}</p>;
+            }
+          })}
+        </div>
+      )}
     </header>
   );
 }
