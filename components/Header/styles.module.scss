@@ -12,21 +12,34 @@
     grid-template-rows: repeat(auto-fit, minmax(min-content, 1fr));
 
     .wrapper {
+      display: flex;
       padding: 1rem;
-
       h1 {
         text-align: center;
         margin-top: 1rem;
         font-size: 1rem;
+        align-items: flex-start;
       }
 
       p {
+
       }
     }
   }
 
   @media only screen and (max-width: 500px) {
-    grid-template-rows: repeat(auto-fit, minmax(min-content, 70vh));
+    grid-template-rows: repeat(auto-fit, minmax(min-content, 1fr));
+  }
+
+  @media only screen and (max-width: 510px) {
+    .wrapper {
+      h1 {
+        font-size: 3rem !important;
+      }
+      p {
+        display: none !important;
+      }
+    }
   }
 
   .wrapper {

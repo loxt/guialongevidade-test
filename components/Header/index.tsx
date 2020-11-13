@@ -81,7 +81,7 @@ export default function Header() {
                 place.name.toLowerCase().includes(text.toLowerCase()),
             )
             .slice(0, 10)
-            .map((place, i) => {
+            .map((place) => {
               return (
                 <p onClick={() => setPlace(place)} key={place.id}>
                   {place.name}
