@@ -5,6 +5,7 @@
   padding: 1rem;
   justify-items: center;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+
   @media only screen and (max-width: 900px) {
     display:flex;
     flex-direction: column-reverse;
@@ -21,11 +22,17 @@
 
   img {
     width: 18rem;
+    -webkit-user-drag: none;
   }
 
   .search {
     display: flex;
     width: 100%;
+
+    @media only screen and (min-width: 900px) {
+      display: none;
+    }
+
     input {
       width: 100%;
       padding: 1.5rem;
@@ -55,15 +62,20 @@
       border-radius: 0 .5rem .5rem 0;
       cursor: pointer;
       box-shadow: 0 .5rem .5rem rgba(#000, .2);
+      transition: all .2s;
+
+      &:hover {
+        background-color: darken(#2CB99D, 2);
+      }
     }
   }
-
 
   .menu {
     a {
       text-decoration: none;
       color: #333333;
       font-size: 1.8rem;
+      transition: all .2s;
 
       &:first-child {
         margin-right: 5rem;

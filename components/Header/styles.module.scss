@@ -1,0 +1,96 @@
+.header {
+  display: grid;
+  justify-content: center;
+  background: url("/hero-bg.jpg");
+  background-position-y: 50%;
+  background-position-x: right;
+  background-size: cover;
+  grid-template-rows: repeat(auto-fit, minmax(min-content, 45vh));
+
+  @media only screen and (max-width: 900px) {
+    grid-template-rows: repeat(auto-fit, minmax(min-content, 1fr));
+
+    .wrapper {
+      padding: 1rem;
+      h1 {
+        text-align: center;
+        margin-top: 1rem;
+        font-size: 1rem;
+      }
+
+      p {
+      }
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    grid-template-rows: repeat(auto-fit, minmax(min-content, 70vh));
+  }
+
+    .wrapper {
+    display: grid;
+    align-items: center;
+    h1 {
+      color: #FFFFFF;
+      margin-top: 2rem;
+      font-size: 4rem;
+    }
+
+    p {
+      font-size: 2rem;
+      text-align: center;
+      display: grid;
+      align-self: flex-start;
+      color: #fff;
+      margin-bottom: -5rem;
+    }
+
+
+    .search {
+      @media only screen and (max-width: 900px) {
+        display: none;
+      }
+
+        display: flex;
+      width: 100%;
+      margin: 0 auto;
+      max-width: 50rem;
+      input {
+        width: 100%;
+        padding: 1.5rem;
+        height: 5rem;
+        border: none;
+        box-shadow: 0 .5rem .5rem rgba(#000, .2);
+        border-radius: 1rem 0 0 1rem;
+
+        &::placeholder {
+          color: #999;
+          font-size: 1.7rem;
+        }
+
+        &:focus {
+          outline: none;
+        }
+      }
+
+      span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 5rem;
+        width: 7rem;
+        background-color: #2CB99D;
+        color: #fff;
+        border-radius: 0 .5rem .5rem 0;
+        cursor: pointer;
+        box-shadow: 0 .5rem .5rem rgba(#000, .2);
+        transition: all .2s;
+
+        &:hover {
+          background-color: darken(#2CB99D, 2);
+        }
+      }
+    }
+  }
+
+}
