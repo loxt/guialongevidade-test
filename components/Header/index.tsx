@@ -4,12 +4,14 @@ import { IList } from '../../common/interfaces/IList.interface';
 
 import rj from '../../database/rio-de-janeiro.json';
 import sp from '../../database/sao-paulo.json';
+import Select from '../Select';
 
 export default function Header() {
   const dataSp = JSON.parse(JSON.stringify(sp));
   const dataRj = JSON.parse(JSON.stringify(rj));
   const [list, setList] = useState<IList[]>([]);
   const [menuList, setMenuList] = useState<IList>(null);
+  let clicked = false;
 
   useEffect(() => {
     setList([
@@ -21,16 +23,16 @@ export default function Header() {
         initialPlaces: dataRj.pageProps.initialPlaces,
         location: dataRj.pageProps.location,
       },
-      ,
     ]);
-  }, [rj, sp]);
+  }, [clicked]);
 
   async function getList(text: string) {
     if (text != '') {
       list.map((l) => {
         if (
-          l.location.includes(text) ||
-          l.initialPlaces.some((value) => value.address.includes(text))
+          l.initialPlaces.some((value) =>
+            value.address.toLowerCase().includes(text.toLowerCase()),
+          )
         ) {
           setMenuList(l);
         }
@@ -52,7 +54,14 @@ export default function Header() {
             onChange={(e) => getList(e.target.value)}
             placeholder='São Paulo, SP'
           />
-          <span className='fa fa-search fa-2x' />
+          <span
+            onClick={() => {
+              console.log('1');
+              clicked = !clicked;
+              console.log(clicked);
+            }}
+            className='fa fa-search fa-2x'
+          />
         </div>
       </div>
     </header>
