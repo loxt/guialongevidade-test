@@ -101,9 +101,7 @@
     background-color: #FFF;
     padding: 1.5rem;
     width: 100%;
-    margin: 0 auto;
-    position: relative;
-    bottom: 2%;
+    margin: -3rem auto 0;
     border: 1px solid #777;
     border-radius: 1rem;
     max-width: 50rem;
@@ -126,11 +124,13 @@
         }
       }
     }
-    a {
-      text-decoration: none;
-      color: #777;
+    p {
+      color: #fff;
       cursor: pointer;
       font-size: 1.4rem;
+      border-radius: .5rem;
+      background-color: #2A62FE;
+      padding: 1rem;
 
       &:not(:last-child) {
         margin-bottom: 1rem;

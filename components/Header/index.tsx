@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import styles from './styles.module.scss';
 import { IList } from '../../common/interfaces/IList.interface';
-
+import { useRouter } from 'next/router';
 import rj from '../../database/rio-de-janeiro.json';
 import sp from '../../database/sao-paulo.json';
-import Link from 'next/link';
 
 export default function Header() {
   const dataSp = JSON.parse(JSON.stringify(sp));
@@ -13,6 +12,8 @@ export default function Header() {
 
   const [menuList, setMenuList] = useState<IList[]>(null);
   const [text, setText] = useState('');
+
+  const [place, setPlace] = useState<IList>(null);
 
   useEffect(() => {
     setList(
@@ -28,6 +29,21 @@ export default function Header() {
       });
       setMenuList(array);
     }
+  }
+
+  if (place) viewDetails(place);
+
+  async function viewDetails(place: IList) {
+    const router = useRouter();
+    // await router.push({
+    //   pathname: ``,
+    // });
+    await router.push(
+      {
+        pathname: `/details?address=${place.address}&name=${place.name}&location=${place.location}&rating=${place.rating}`,
+      },
+      '/details',
+    );
   }
 
   return (
@@ -65,11 +81,11 @@ export default function Header() {
                 place.name.toLowerCase().includes(text.toLowerCase()),
             )
             .slice(0, 10)
-            .map((place) => {
+            .map((place, i) => {
               return (
-                <Link href={'/'} key={place.id}>
+                <p onClick={() => setPlace(place)} key={place.id}>
                   {place.name}
-                </Link>
+                </p>
               );
             })}
         </div>
